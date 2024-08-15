@@ -1,1 +1,1 @@
-baseFood waitlist
+baseFood wait list
