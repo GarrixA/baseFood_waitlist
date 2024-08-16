@@ -19,7 +19,7 @@ const FormComponent = ({ toggleModal }: FormComponentProps) => {
 				</div>
 				<form
 					className="launchlist-form px-10 py-6 flex flex-col w-full space-y-5 rounded-xl font-heading"
-					action="https://getlaunchlist.com/s/F7AvJj"
+					action="https://getlaunchlist.com/s/bVlUS5"
 					method="POST"
 				>
 					<input
@@ -35,18 +35,18 @@ const FormComponent = ({ toggleModal }: FormComponentProps) => {
 						className="px-5 py-2 rounded border-4 border-[#d9d9d9] "
 					/>
 					<select
-						name="cars"
-						id="cars"
+						name="Company"
+						id="company"
 						className="px-5 py-2 rounded border-4 border-[#d9d9d9] text-[#b6b4b4]"
 					>
 						<option>Type of company</option>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="Farmer">Farmer</option>
+						<option value="Commodity Trader">Commodity Trader</option>
+						<option value="Logistic Company">Logistic Company</option>
+						<option value="Other">Other</option>
 					</select>
 					<input
-						name="country"
+						name="Country"
 						type="text"
 						placeholder="Your country"
 						className="px-5 py-2 rounded border-4 border-[#d9d9d9]"

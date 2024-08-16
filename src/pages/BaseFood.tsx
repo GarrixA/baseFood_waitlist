@@ -16,12 +16,11 @@ const BaseFood = () => {
 		setOpenModal(!openModal);
 	};
 	const handleJoinWaitlist = () => {
-		console.log("Joining waitlist...");
 		toggleModal();
 	};
 
 	const handleGetInTouch = () => {
-		console.log("Getting in touch...");
+		window.location.href = "mailto:research@trendsaf.co";
 	};
 	return (
 		<>
