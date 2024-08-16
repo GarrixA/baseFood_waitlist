@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	body {
+		font-family: "Helvetica Neue", sans-serif;
+	}
+
+	.waitlist {
+		background-image: url("./assets/image1.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		object-fit: cover;
+
+		animation: animateBG 60s ease-in-out infinite alternate-reverse;
+	}
+
+	/* @keyframes animateBG {
+		0% {
+			background-image: url("./assets/image1.jpg");
+		}
+		20% {
+			background-image: url("./assets/image4.jpg");
+		}
+		40% {
+			background-image: url("./assets/image3.jpg");
+		}
+		60% {
+			background-image: url("./assets/image4.jpg");
+		}
+		80% {
+			background-image: url("./assets/image5.jpg");
+		}
+		100% {
+			background-image: url("./assets/image1.jpg");
+		}
+	} */
+	._shadow {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}
