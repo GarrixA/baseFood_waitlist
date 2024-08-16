@@ -17,7 +17,7 @@
 		animation: animateBG 60s ease-in-out infinite alternate-reverse;
 	}
 
-	/* @keyframes animateBG {
+	@keyframes animateBG {
 		0% {
 			background-image: url("./assets/image1.jpg");
 		}
@@ -36,7 +36,7 @@
 		100% {
 			background-image: url("./assets/image1.jpg");
 		}
-	} */
+	}
 	._shadow {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
