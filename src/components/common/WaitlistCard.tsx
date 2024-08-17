@@ -35,7 +35,7 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 							buttonRight
 								? "md:text-4xl text-xl text-center lg:text-start"
 								: "2xl:text-5xl text-2xl md:text-4xl"
-						} font-heading font-black`}
+						} font-heading font-black hpver:bg-[#]`}
 					>
 						{headline}
 					</h1>
@@ -48,7 +48,7 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 				>
 					<button
 						onClick={button1Action}
-						className=" px-6 py-2 bg-[#2245FE] md:text-xl text-white rounded-lg hover:bg-white hover:text-[#2245FE]"
+						className=" font-heading px-6 py-2 bg-[#2245FE] hover:bg-gradient-to-r hover:from-[#2245FE] hover:to-blue-700 md:text-xl text-white rounded-[8px]"
 					>
 						{button1Text}
 					</button>
@@ -56,7 +56,7 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 						onClick={button2Action}
 						className={`${
 							button2Required ? "block" : "hidden"
-						} px-6 py-2 bg-[#2245FE] font-body md:text-xl rounded-lg hover:bg-white hover:text-[#2245FE]`}
+						} px-6 py-2 font-heading md:text-xl rounded-[8px] bg-white text-[#2245FE]`}
 					>
 						{button2Text}
 					</button>

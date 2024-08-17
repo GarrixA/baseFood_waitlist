@@ -24,17 +24,17 @@ const BaseFood = () => {
 	};
 	return (
 		<>
-			<div className="mt-24">
-				<div className="relative h-[70vh]">
-					<div className="absolute w-full h-full bg-black/20"></div>
-					<div className="waitlist absolute  z-10 h-full flex items-center w-full text-white">
+			<div className="">
+				<div className="relative waitlist h-[90vh]">
+					<div className="absolute inset-0 z-20 bg-black opacity-50 h-full"></div>
+					<div className="absolute z-30 h-full flex items-center w-full text-white">
 						{WaitlistData.map((data, idx) => (
 							<WaitlistCard
 								headline={data.heading}
 								subtitle={data.subTitle}
 								button1Text="Join Waitlist"
 								button1Action={handleJoinWaitlist}
-								button2Text="Get in Touch"
+								button2Text="Get in touch"
 								button2Action={handleGetInTouch}
 								button2Required
 								key={idx}
