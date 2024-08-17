@@ -14,7 +14,7 @@
 		background-repeat: no-repeat;
 		object-fit: cover;
 
-		animation: animateBG 60s ease-in-out infinite alternate-reverse;
+		animation: animateBG 30s ease-in-out infinite alternate-reverse;
 	}
 
 	@keyframes animateBG {
