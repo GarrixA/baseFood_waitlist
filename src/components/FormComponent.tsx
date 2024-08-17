@@ -70,15 +70,15 @@ const FormComponent = ({ toggleModal }: FormComponentProps) => {
                 name="category"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 "
               >
-                <option value="jira">Producer/Farmer</option>
-                <option value="jira">FMCG Buyer</option>
-                <option value="trello">Commodity broker</option>
-                <option value="sticky">Logistics and Customs operator</option>
+                <option value="Producer/Farmer">Producer/Farmer</option>
+                <option value="FMCG Buyer">FMCG Buyer</option>
+                <option value="Commodity broker">Commodity broker</option>
+                <option value="Logistics and Customs operator">Logistics and Customs operator</option>
                 <option value="none">None of the above</option>
               </select>
               <textarea
-                id="category"
-                name="category"
+                id="other-category"
+                name="Other category"
                 className="block p-2.5 mt-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-green-500 focus:border-green-500"
                 placeholder="Add your category here, if it's not included above"
               ></textarea>
